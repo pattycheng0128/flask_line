@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Flask網站</h1>
+    <h1>Flask網站
+        <img src="{{ url_for('static', filename='star.jpeg') }}" width="32" height="32">
+    </h1>
     <h2>{{name}}，歡迎光臨!</h2>
     <h4>現在時刻:{{now}}</h4>
 </body>
